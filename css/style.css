@@ -36,7 +36,7 @@ p {
 /* 通常のリンク */
 a {
   color: #70280b;       /* 好きな色にしてOK */
-  text-decoration: bold; /* 下線消したい場合 */
+  text-decoration: none; /* 下線消したい場合 */
 }
 
 /* マウスを乗せた時 */
@@ -53,5 +53,4 @@ a:active {
 /* すでに押した（訪問済み）リンク */
 a:visited {
   color: #242120; /* 通常と同じ色にすると「押した感」消せる */
-  text-decoration: bold;
 }
