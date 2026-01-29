@@ -33,25 +33,24 @@ p {
   font-size: 1rem;
 }
 
-/* 通常のリンク */
-body a {
-  color: #e34c10;       /* 好きな色にしてOK */
-  text-decoration: none; /* 下線消したい場合 */
+/* 全ページのリンク色（未訪問） */
+a:link {
+  color: #5a504c;
+  text-decoration: none;
 }
 
-/* マウスを乗せた時 */
-body a:hover {
-  color: #70280b;
-  text-decoration: underline; /* 乗せた時だけ下線とかもアリ */
+/* 訪問済みリンク */
+a:visited {
+  color: #5a504c;
 }
 
-/* クリックしてる最中 */
-body a:active {
-  color: #c9556c;
+/* ホバー時 */
+a:hover {
+  color: #3b3330;
+  text-decoration: underline;
 }
 
-/* すでに押した（訪問済み）リンク */
-body a:visited {
-  color: #242120; /* 通常と同じ色にすると「押した感」消せる */
+/* クリック（押している最中） */
+a:active {
+  color: #2a2422;
 }
-
