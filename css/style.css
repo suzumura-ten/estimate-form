@@ -1,7 +1,7 @@
 /* 全体の基本設定 */
 body {
   background-color: #d3cbc6;
-  color: #eaeaea;
+  color: #3b3330;
   font-family: arial unicode ms, "Noto Sans JP", system-ui, sans-serif;
   margin: 10;
   padding: 0;
@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-size: 1.4rem;
   margin-top: 2em;
-  border-left: 4px solid #8aa4ff;
+  border-left: 4px solid #451922;
   padding-left: 12px;
 }
 
