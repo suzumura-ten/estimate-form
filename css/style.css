@@ -2,7 +2,7 @@
 body {
   background-color: #d3cbc6;
   color: #3b3330;
-  font-family: arial unicode ms, "Noto Sans JP", system-ui, sans-serif;
+  font-family: Century Gothic, "Noto Sans JP", system-ui, sans-serif;
   margin: 10;
   padding: 0;
   line-height: 1.7;
@@ -31,4 +31,27 @@ h2 {
 /* 小さめテキスト */
 p {
   font-size: 1rem;
+}
+
+/* 通常のリンク */
+a {
+  color: #451922;       /* 好きな色にしてOK */
+  text-decoration: none; /* 下線消したい場合 */
+}
+
+/* マウスを乗せた時 */
+a:hover {
+  color: #451922;
+  text-decoration: underline; /* 乗せた時だけ下線とかもアリ */
+}
+
+/* クリックしてる最中 */
+a:active {
+  color: #c9556c;
+}
+
+/* すでに押した（訪問済み）リンク */
+a:visited {
+  color: #242120; /* 通常と同じ色にすると「押した感」消せる */
+  text-decoration: bold;
 }
