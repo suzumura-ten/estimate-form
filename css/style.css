@@ -34,23 +34,24 @@ p {
 }
 
 /* 通常のリンク */
-a {
+body a {
   color: #e34c10;       /* 好きな色にしてOK */
   text-decoration: none; /* 下線消したい場合 */
 }
 
 /* マウスを乗せた時 */
-a:hover {
+body a:hover {
   color: #70280b;
   text-decoration: underline; /* 乗せた時だけ下線とかもアリ */
 }
 
 /* クリックしてる最中 */
-a:active {
+body a:active {
   color: #c9556c;
 }
 
 /* すでに押した（訪問済み）リンク */
-a:visited {
+body a:visited {
   color: #242120; /* 通常と同じ色にすると「押した感」消せる */
 }
+
