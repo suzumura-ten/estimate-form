@@ -35,13 +35,13 @@ p {
 
 /* 通常のリンク */
 a {
-  color: #451922;       /* 好きな色にしてOK */
-  text-decoration: none; /* 下線消したい場合 */
+  color: #70280b;       /* 好きな色にしてOK */
+  text-decoration: bold; /* 下線消したい場合 */
 }
 
 /* マウスを乗せた時 */
 a:hover {
-  color: #451922;
+  color: #70280b;
   text-decoration: underline; /* 乗せた時だけ下線とかもアリ */
 }
 
