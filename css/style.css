@@ -34,23 +34,20 @@ p {
 }
 
 /* 全ページのリンク色（未訪問） */
-a:link {
+body a {
   color: #5a504c;
   text-decoration: none;
 }
 
-/* 訪問済みリンク */
-a:visited {
-  color: #5a504c;
-}
-
-/* ホバー時 */
-a:hover {
+body a:hover {
   color: #3b3330;
   text-decoration: underline;
 }
 
-/* クリック（押している最中） */
-a:active {
+body a:active {
   color: #2a2422;
+}
+
+body a:visited {
+  color: #5a504c;
 }
