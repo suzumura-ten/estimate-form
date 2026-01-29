@@ -1,21 +1,4 @@
-/* 全ページのリンク色（未訪問） */
-body a {
-  color: #5a504c;
-  text-decoration: none;
-}
-
-body a:hover {
-  color: #3b3330;
-  text-decoration: underline;
-}
-
-body a:active {
-  color: #2a2422;
-}
-
-body a:visited {
-  color: #5a504c;
-}
+@charset "utf-8";
 
 /* 全体の基本設定 */
 body {
@@ -50,5 +33,24 @@ h2 {
 /* 小さめテキスト */
 p {
   font-size: 1rem;
+}
+
+/* 全ページのリンク色（未訪問） */
+body a {
+  color: #5a504c;
+  text-decoration: none;
+}
+
+body a:hover {
+  color: #3b3330;
+  text-decoration: underline;
+}
+
+body a:active {
+  color: #2a2422;
+}
+
+body a:visited {
+  color: #5a504c;
 }
 
