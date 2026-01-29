@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#total-price {
+  font-size: 24px;
+  font-weight: bold;
+}
